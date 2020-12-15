@@ -1,6 +1,6 @@
 body {
   margin: 0px 0 0 0;
-  background-color: rgb(151, 172, 224);
+  background-color: #CEED6B;
 }
 
 main {
@@ -35,23 +35,23 @@ main {
 }
 
 .itoemosi {
-  background-color: blue;
+  background-color: #63F7AD;
 }
 
 .chat-space {
-  background-color: blueviolet;
+  background-color: #64E0C5;
 }
 
 .furima {
-  background-color: brown;
+  background-color: #63EEF7;
 }
 
 .nasi-nouen {
-  background-color: darkgreen;
+  background-color: #5FED7E;
 }
 
 .top {
-  background-color: darkblue;
+  background-color: #5FBFED;
 }
 
 .site_body {
@@ -67,8 +67,17 @@ main {
 
 .site_link {
   display: flex;
-  white-space: nowrap;
-  
+  /* white-space: nowrap; */
+}
+
+.site_main {
+  border-bottom: solid 2px black;
+  padding: 10px 0;
+}
+
+.site_main h2 {
+  /* margin: 0 auto; */
+  text-align: center;
 }
 
 .site_body .right {
